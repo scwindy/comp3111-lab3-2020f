@@ -20,5 +20,6 @@ public class Lab3Controller {
     @FXML
     void buttonPressed(ActionEvent event) {
         label1.setText(TextField1.getText());
+        System.out.println("haha");
     }
 }
